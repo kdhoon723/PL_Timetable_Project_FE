@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://timetable.pl-official.site/",
+      "permanent": false
+    },
+    {
       "source": "/:path*",
       "destination": "https://timetable.pl-official.site/:path*",
       "permanent": false
